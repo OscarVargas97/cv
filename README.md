@@ -1,2 +1,3 @@
 # CV
-![Resume-2-1_page-0001](https://github.com/user-attachments/assets/1f2a01de-9c7f-4eae-9c13-6f3b620a1c7e)
+
+![Resume-2-2](https://github.com/user-attachments/assets/5f5bda72-c3d3-437b-b6a0-b2dbf9f97861)
