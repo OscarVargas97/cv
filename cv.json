@@ -1,0 +1,82 @@
+{
+  "basics": {
+    "name": "Oscar Andres Vargas Zazzali",
+    "phone": "+(56) 9 9335 8631",
+    "email": "ovargaszazzali@gmail.com",
+    "github": "github.com/OscarVargas97",
+    "linkedin": "linkedin.com/in/oscarvargasz/"
+  },
+  "sections": {
+    "experience": "EXPERIENCIA",
+    "education": "EDUCACION",
+    "skills": "COMPETENCIAS TECNICAS"
+  },
+  "experience": [
+    {
+      "company": "RFLEX.IO2",
+      "period": "2024 -- Actualidad",
+      "role": "Ingeniero de Software",
+      "schedule": "Jornada completa",
+      "bullets": [
+        "Refactorización de código legado para optimizar el rendimiento y la mantenibilidad del sistema.\r\nAutomatización de procesos manuales para mejorar la eficiencia operativa.\r\nColaboración con el equipo de Producto en la propuesta de metodologías y buenas prácticas de desarrollo de software."
+      ]
+    },
+    {
+      "company": "TIMETRICS SPA",
+      "period": "2022 -- 2024",
+      "role": "Desarrollador Full Stack",
+      "schedule": "Jornada completa",
+      "bullets": [
+        "Diseño e implementación de nuevas funcionalidades en software de contabilidad.\r\nDiseño, implementación y mejora continua de servicios API REST para capas de exposición de información.\r\nUso de tecnologías AWS para soportar integraciones y servicios backend."
+      ]
+    },
+    {
+      "company": "ESFERA4 SPA",
+      "period": "2020 -- 2022",
+      "role": "Analista en Ciberseguridad Ofensiva y Seguridad de la Información",
+      "schedule": "Jornada parcial",
+      "bullets": [
+        "Ejecución de pruebas de anatomía de ataque utilizando el marco MITRE ATT&CK y herramientas de Red Canary.\r\nRealización de GAP analysis con normativas ISO 22301, ISO 27001, ISO 27002 y NIST CSF.\r\nUso de herramientas como OpenVAS, Wazuh, DefectDojo e Infection Monkey."
+      ]
+    },
+    {
+      "company": "4TALENT",
+      "period": "2020",
+      "role": "Estudiante en Práctica",
+      "schedule": "Jornada completa",
+      "bullets": [
+        "Desarrollo backend de una aplicación en Ruby on Rails, realizando debugging y codificando nuevas funcionalidades.\r\nUso de herramientas de colaboración como Docker, Git y flujo de trabajo Gitflow."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Mayor, Santiago, Chile",
+      "period": "2015 -- 2022",
+      "degree": "Ingeniería Civil en Computación e Informática",
+      "details": [
+        "Formación profesional en computación, desarrollo de software y tecnologías de información.\r\nCurso realizado: Aprendiendo a aprender: Poderosas herramientas mentales con las que podrás dominar temas difíciles (Learning How to Learn).\r\nCurso realizado: Programa Especializado - Architecting with Google Compute Engine en Español.\r\nDesarrollo de juegos simples y clones usando C# y Unity."
+      ]
+    }
+  ],
+  "skill_groups": [
+    {
+      "title": "Tecnologías",
+      "items": [
+        "Docker\r\nPython\r\nPHP\r\nJavaScript\r\nDjango\r\nLaravel\r\nReact\r\nCSS\r\nHTML"
+      ]
+    },
+    {
+      "title": "Herramientas",
+      "items": [
+        "Git\r\nGitflow\r\nMITRE ATT&CK"
+      ]
+    },
+    {
+      "title": "Idiomas",
+      "items": [
+        "Español\r\nInglés básico\r\nJapones"
+      ]
+    }
+  ]
+}
