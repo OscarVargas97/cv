@@ -1,24 +1,36 @@
 {
   "basics": {
-    "name": "Oscar Andres Vargas Zazzali",
+    "name": "Oscar Andrés Vargas Zazzali",
     "phone": "+(56) 9 9335 8631",
-    "email": "ovargaszazzali@gmail.com",
+    "email": "[ovargaszazzali@gmail.com](mailto:ovargaszazzali@gmail.com)",
     "github": "github.com/OscarVargas97",
     "linkedin": "linkedin.com/in/oscarvargasz/"
   },
   "sections": {
     "experience": "EXPERIENCIA",
-    "education": "EDUCACION",
-    "skills": "COMPETENCIAS TECNICAS"
+    "education": "EDUCACIÓN",
+    "skills": "COMPETENCIAS TÉCNICAS"
   },
   "experience": [
     {
-      "company": "RFLEX.IO2",
-      "period": "2024 -- Actualidad",
+      "company": "MYNU",
+      "period": "2025 -- Actualidad",
       "role": "Ingeniero de Software",
       "schedule": "Jornada completa",
       "bullets": [
-        "Refactorización de código legado para optimizar el rendimiento y la mantenibilidad del sistema.\r\nAutomatización de procesos manuales para mejorar la eficiencia operativa.\r\nColaboración con el equipo de Producto en la propuesta de metodologías y buenas prácticas de desarrollo de software."
+        "Análisis de procesos operacionales, diseño e implementación de una plataforma para gestionar kits físicos, órdenes de venta y servicios asociados.",
+        "Planificación y ejecución de la refactorización del sistema de laboratorio y generación de resultados, mejorando su mantenibilidad y tiempos de procesamiento.",
+        "Diseño e implementación de la comunicación entre sistemas de laboratorio, gestión de kits y productos finales mediante una arquitectura basada en eventos."
+      ]
+    },
+    {
+      "company": "RFLEX.IO2",
+      "period": "2024 -- 2025",
+      "role": "Ingeniero de Software",
+      "schedule": "Jornada completa",
+      "bullets": [
+        "Refactorización de código legado y automatización de procesos para mejorar la mantenibilidad y eficiencia operacional.",
+        "Colaboración con Producto en la definición de requerimientos, alcance, criterios técnicos y planificación de funcionalidades."
       ]
     },
     {
@@ -27,25 +39,18 @@
       "role": "Desarrollador Full Stack",
       "schedule": "Jornada completa",
       "bullets": [
-        "Diseño e implementación de nuevas funcionalidades en software de contabilidad.\r\nDiseño, implementación y mejora continua de servicios API REST para capas de exposición de información.\r\nUso de tecnologías AWS para soportar integraciones y servicios backend."
+        "Diseño e implementación de funcionalidades frontend y backend para una plataforma de contabilidad.",
+        "Desarrollo de APIs REST, integraciones y servicios backend desplegados sobre infraestructura AWS."
       ]
     },
     {
       "company": "ESFERA4 SPA",
       "period": "2020 -- 2022",
-      "role": "Analista en Ciberseguridad Ofensiva y Seguridad de la Información",
+      "role": "Analista de Ciberseguridad y Seguridad de la Información",
       "schedule": "Jornada parcial",
       "bullets": [
-        "Ejecución de pruebas de anatomía de ataque utilizando el marco MITRE ATT&CK y herramientas de Red Canary.\r\nRealización de GAP analysis con normativas ISO 22301, ISO 27001, ISO 27002 y NIST CSF.\r\nUso de herramientas como OpenVAS, Wazuh, DefectDojo e Infection Monkey."
-      ]
-    },
-    {
-      "company": "4TALENT",
-      "period": "2020",
-      "role": "Estudiante en Práctica",
-      "schedule": "Jornada completa",
-      "bullets": [
-        "Desarrollo backend de una aplicación en Ruby on Rails, realizando debugging y codificando nuevas funcionalidades.\r\nUso de herramientas de colaboración como Docker, Git y flujo de trabajo Gitflow."
+        "Ejecución de evaluaciones de seguridad basadas en MITRE ATT&CK, ISO 27001, ISO 22301 y NIST CSF.",
+        "Análisis de vulnerabilidades y documentación de riesgos mediante OpenVAS, Wazuh, DefectDojo e Infection Monkey."
       ]
     }
   ],
@@ -55,27 +60,91 @@
       "period": "2015 -- 2022",
       "degree": "Ingeniería Civil en Computación e Informática",
       "details": [
-        "Formación profesional en computación, desarrollo de software y tecnologías de información.\r\nCurso realizado: Aprendiendo a aprender: Poderosas herramientas mentales con las que podrás dominar temas difíciles (Learning How to Learn).\r\nCurso realizado: Programa Especializado - Architecting with Google Compute Engine en Español.\r\nDesarrollo de juegos simples y clones usando C# y Unity."
+        "Formación en ingeniería de software, desarrollo de aplicaciones, bases de datos, redes y tecnologías de información."
+      ]
+    },
+    {
+      "institution": "Formación complementaria",
+      "period": "",
+      "degree": "Cursos y especializaciones",
+      "details": [
+        "Programa especializado Architecting with Google Compute Engine y curso Learning How to Learn."
       ]
     }
   ],
   "skill_groups": [
     {
-      "title": "Tecnologías",
+      "title": "Ingeniería de software",
       "items": [
-        "Docker\r\nPython\r\nPHP\r\nJavaScript\r\nDjango\r\nLaravel\r\nReact\r\nCSS\r\nHTML"
+        "Diseño y arquitectura de soluciones",
+        "Planificación y definición técnica",
+        "Integración, documentación y mantenibilidad"
       ]
     },
     {
-      "title": "Herramientas",
+      "title": "Lenguajes",
       "items": [
-        "Git\r\nGitflow\r\nMITRE ATT&CK"
+        "Python",
+        "TypeScript",
+        "JavaScript",
+        "SQL",
+        "HTML",
+        "CSS"
+      ]
+    },
+    {
+      "title": "Backend y datos",
+      "items": [
+        "Django",
+        "FastAPI",
+        "Celery",
+        "APIs REST",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "RabbitMQ"
+      ]
+    },
+    {
+      "title": "Frontend",
+      "items": [
+        "React",
+        "Next.js",
+        "Vue.js",
+        "Vite"
+      ]
+    },
+    {
+      "title": "Infraestructura y herramientas",
+      "items": [
+        "Docker",
+        "AWS",
+        "GitHub Actions",
+        "Nginx",
+        "Linux",
+        "CI/CD",
+        "Git",
+        "GitHub",
+        "Postman",
+        "SonarQube",
+        "Jira"
+      ]
+    },
+    {
+      "title": "Ciberseguridad",
+      "items": [
+        "MITRE ATT&CK",
+        "ISO 27001",
+        "NIST CSF",
+        "OpenVAS",
+        "Wazuh"
       ]
     },
     {
       "title": "Idiomas",
       "items": [
-        "Español\r\nInglés básico\r\nJapones"
+        "Español nativo",
+        "Inglés básico"
       ]
     }
   ]

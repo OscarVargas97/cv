@@ -24,9 +24,10 @@ def write_json(path: Path, data: dict) -> None:
 def normalize_lines(raw_items: list[str]) -> list[str]:
     values = []
     for item in raw_items:
-        stripped = item.strip()
-        if stripped:
-            values.append(stripped)
+        for line in item.splitlines():
+            stripped = line.strip()
+            if stripped:
+                values.append(stripped)
     return values
 
 

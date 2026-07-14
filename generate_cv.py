@@ -222,10 +222,10 @@ def render_experience(entries: list[dict]) -> str:
             f"      {{{latex_escape(entry['role'])}}}{{{latex_escape(entry['schedule'])}}}\n"
             "      \\resumeItemListStart\n"
             f"{bullets}\n"
-            "      \\resumeItemListEnd\n"
+            "      \\resumeItemListEnd"
         )
         blocks.append(block)
-    return "\n".join(blocks)
+    return "\n    \\vspace{-4pt}\n".join(blocks)
 
 
 def render_education(entries: list[dict]) -> str:
@@ -240,10 +240,21 @@ def render_education(entries: list[dict]) -> str:
             f"      {{{latex_escape(entry['degree'])}}}{{}}\n"
             "      \\resumeItemListStart\n"
             f"{details}\n"
-            "      \\resumeItemListEnd\n"
+            "      \\resumeItemListEnd"
         )
         blocks.append(block)
-    return "\n".join(blocks)
+    return "\n    \\vspace{-16pt}\n".join(blocks)
+
+
+def flatten_items(raw_items: list[str]) -> list[str]:
+    """Split multiline strings into individual items."""
+    result = []
+    for item in raw_items:
+        for line in item.splitlines():
+            stripped = line.strip()
+            if stripped:
+                result.append(stripped)
+    return result
 
 
 def render_skills(groups: list[dict]) -> str:
@@ -251,7 +262,8 @@ def render_skills(groups: list[dict]) -> str:
     last_index = len(groups) - 1
     for index, group in enumerate(groups):
         suffix = r"\vspace{2pt} \\" if index != last_index else ""
-        items = ", ".join(latex_escape(item) for item in group["items"])
+        flat = flatten_items(group["items"])
+        items = ", ".join(latex_escape(item) for item in flat)
         lines.append(f"    \\textbf{{{latex_escape(group['title'])}}} {{: {items}}}{suffix}")
     return "\n".join(lines)
 
@@ -335,7 +347,7 @@ def generate_markdown(data: dict) -> str:
             f"### {group['title']}",
             "",
         ])
-        lines.extend(f"- {item}" for item in group["items"])
+        lines.extend(f"- {item}" for item in flatten_items(group["items"]))
         lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
